@@ -1,0 +1,3 @@
+This repository contains a Python function designed to compute the average of a list of numbers.  The function demonstrates an uncommon error in how it handles empty input lists. Instead of raising an exception or returning a more informative value (like `None` or `NaN`), it returns 0, which can be misleading in certain applications.
+
+The `bug.py` file contains the original code with the error, while `bugSolution.py` provides a corrected version with improved error handling.
